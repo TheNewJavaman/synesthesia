@@ -1,7 +1,7 @@
 # synesthesia
 ### Sync PC audio with WS812B addressable LED strips
 
-Using the Stereo Mix audio input device in Windows, the project processes outgoing audio PCM data, performs a FFT to get frequency data, and returns frequency amplitudes, represented by colors on the LED strip. Video to come soon. I also used Windows Task Scheduler to run a build of the project on startup.
+Synesthesia provides a real-time audio visualizer using LED strips. Using the Stereo Mix audio input device in Windows, the project processes outgoing audio PCM data, performs a FFT to get frequency data, and returns frequency amplitudes, represented by colors on the LED strip. Video to come soon. I also used Windows Task Scheduler to run a build of the project on startup.
 
 On my Ryzen 5 1600 CPU at 3.85Ghz, controlling 300 LEDs at 30fps consumes <10% utilization. This project is fairly resource-heavy! I'll try to improve its efficiency soon.
 
