@@ -5,6 +5,11 @@ Synesthesia provides a real-time audio visualizer using LED strips. Using the St
 
 On my Ryzen 5 1600 CPU at 3.85Ghz, controlling 300 LEDs at 30fps consumes <10% utilization. This project is fairly resource-heavy! I'll try to improve its efficiency soon.
 
+You'll have to manually provide some details in Program.cs:
+- deviceID (audio input device; probably 0, 1, or 2, you'll have to play around to get it right)
+- commPort (serial port for your usb bridge)
+- pixelCount (how many LEDs you have)
+
 ### Other projects referenced
 - https://github.com/swharden/Csharp-Data-Visualization (projects/18-09-19_microphone_FFT_revisited)
 - https://github.com/beakdan/NeoPixelUsbBridge
